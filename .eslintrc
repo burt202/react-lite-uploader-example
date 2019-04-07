@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@mft/eslint-config-momentumft/react"
+  ],
+  "parser": "babel-eslint",
+  "settings": {
+    "react": {
+      "version": "16.0"
+    }
+  }
+}

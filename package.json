@@ -1,0 +1,32 @@
+{
+  "name": "react-lite-uploader-example",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint src/ --ext .js,.jsx",
+    "start": "webpack-dev-server --progress --colors"
+  },
+  "dependencies": {
+    "lite-uploader": "^6.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@mft/eslint-config-momentumft": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "nunjucks": "^3.2.0",
+    "nunjucks-webpack-plugin": "^5.0.0",
+    "react-hot-loader": "^4.8.3",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
